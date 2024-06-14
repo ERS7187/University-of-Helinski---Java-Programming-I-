@@ -1,0 +1,19 @@
+//Author: Eric Sensebaugh
+// Exercise 19 Program that uses conditional statements to see if the user in an adult ( >= 18) or not an adult ( < 18 )
+import java.util.Scanner;
+
+public class Adulthood {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("How old are you?");
+        int userAge = Integer.valueOf(scan.nextLine());
+        
+        if (userAge >= 18) {
+            System.out.println("You are an adult");
+        } else{
+            System.out.println("You are not an adult");
+        }
+           
+    }
+}
